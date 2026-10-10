@@ -244,16 +244,16 @@ onBeforeUnmount(() => {
           <span :class="statusPillClass" data-reveal="down" data-reveal-delay="40" data-reveal-on-load="true"><i />{{ amsterdamStatus.label }}</span>
           <span class="time-chip" data-reveal="down" data-reveal-delay="65" data-reveal-on-load="true">{{ amsterdamStatus.time }}</span>
           <a href="tel:0851302368" data-reveal="down" data-reveal-delay="90" data-reveal-on-load="true">085 130 23 68</a>
-          <a href="mailto:hello@webvora.com" data-reveal="down" data-reveal-delay="140" data-reveal-on-load="true">hello@webvora.com</a>
+          <a href="mailto:hello@sitevelin.com" data-reveal="down" data-reveal-delay="140" data-reveal-on-load="true">hello@sitevelin.com</a>
         </div>
       </div>
 
       <div class="shell shell--full nav">
         <a href="#top" class="menu" aria-label="Back to top" data-reveal="left" data-reveal-delay="60" data-reveal-on-load="true">
-          <b class="menu__mark" aria-hidden="true">W</b>
+          <b class="menu__mark" aria-hidden="true">S</b>
         </a>
-        <a href="#top" class="logo" data-reveal="down" data-reveal-delay="120" data-reveal-on-load="true">
-          <strong>Webvora</strong>
+        <a href="https://sitevelin.com/" class="logo" data-reveal="down" data-reveal-delay="120" data-reveal-on-load="true">
+          <strong>Sitevelin</strong>
         </a>
         <a href="#contact" class="nav__cta" data-reveal="right" data-reveal-delay="180" data-reveal-on-load="true">
           Contact us
@@ -270,7 +270,7 @@ onBeforeUnmount(() => {
           <span>technical confidence</span>
         </h1>
         <p class="lead" data-reveal="up" data-reveal-delay="320" data-reveal-on-load="true">
-          Webvora is a web development studio focused on business websites, online stores, and
+          Sitevelin is a web development studio focused on business websites, online stores, and
           custom web applications.
         </p>
         <a class="scroll" href="#workflow" aria-label="Scroll to next section" data-reveal="up" data-reveal-delay="420" data-reveal-on-load="true">
@@ -290,7 +290,7 @@ onBeforeUnmount(() => {
         <div data-reveal="up" data-reveal-delay="80">
           <h2 class="dark">Our <span>approach</span></h2>
           <p>
-            When you work with Webvora, you work with specialists who value clear communication,
+            When you work with Sitevelin, you work with specialists who value clear communication,
             fast execution, and long-term collaboration. Not just a delivery partner, but a team
             that thinks ahead and stays involved.
           </p>
@@ -305,7 +305,7 @@ onBeforeUnmount(() => {
           <div data-reveal="up">
             <h2>Focused on <span>development</span></h2>
             <p>
-              Webvora builds websites, e-commerce platforms, and tailored web applications. When
+              Sitevelin builds websites, e-commerce platforms, and tailored web applications. When
               you need strategic or technical guidance around an existing product, we can support
               that as well.
             </p>
@@ -323,15 +323,15 @@ onBeforeUnmount(() => {
             <div class="mini-card__contact">
               <p>Contact us directly</p>
               <a href="#contact">Schedule a call</a>
-              <a href="mailto:hello@webvora.com">hello@webvora.com</a>
+              <a href="mailto:hello@sitevelin.com">hello@sitevelin.com</a>
               <a href="tel:0851302368">085 130 23 68</a>
               <span :class="[statusPillClass, 'pill--lg']"><i />{{ amsterdamStatus.label }}</span>
             </div>
             <div class="mini-card__message">
-              <h3>Webvora</h3>
+              <h3>Sitevelin</h3>
               <p>Have a question or want to get acquainted? Give us a call or send a message.</p>
             </div>
-            <span class="brand-mark brand-mark--contact" aria-hidden="true">W</span>
+            <span class="brand-mark brand-mark--contact" aria-hidden="true">S</span>
           </div>
         </div>
 
@@ -432,6 +432,10 @@ onBeforeUnmount(() => {
               <li>Deployment and launch included</li>
               <li>Advanced features quoted separately</li>
             </ul>
+            <p class="plan__note">
+              Clients provide their content and design references. Custom UI/UX design can be
+              quoted separately.
+            </p>
           </article>
 
           <article class="plan plan--tertiary" data-reveal="up" data-reveal-delay="180">
@@ -452,6 +456,10 @@ onBeforeUnmount(() => {
               <li>Technical issue investigation and fixes</li>
               <li>Custom web application maintenance quoted separately</li>
             </ul>
+            <p class="plan__note">
+              Clients provide their content and design references. Custom UI/UX design can be
+              quoted separately.
+            </p>
           </article>
 
         </div>
@@ -461,9 +469,9 @@ onBeforeUnmount(() => {
     <footer id="contact" class="footer">
       <div class="shell footer__grid">
         <div class="footer__main" data-reveal="left">
-          <a href="#top" class="logo logo--foot">
-            <b class="logo__badge">W</b>
-            <strong>Webvora</strong>
+          <a href="https://sitevelin.com/" class="logo logo--foot">
+            <b class="logo__badge">S</b>
+            <strong>Sitevelin</strong>
           </a>
 
           <div class="col">
@@ -491,13 +499,13 @@ onBeforeUnmount(() => {
 
         <aside class="footer__card" data-reveal="right" data-reveal-delay="100">
           <div>
-            <h3>Contact Webvora</h3>
+            <h3>Contact Sitevelin</h3>
             <a href="#contact">Schedule a call</a>
-            <a href="mailto:hello@webvora.com">hello@webvora.com</a>
+            <a href="mailto:hello@sitevelin.com">hello@sitevelin.com</a>
             <a href="tel:0851302368">085 130 23 68</a>
             <span :class="[statusPillClass, 'pill--lg']"><i />{{ amsterdamStatus.label }}</span>
           </div>
-          <span class="brand-mark brand-mark--footer" aria-hidden="true">W</span>
+          <span class="brand-mark brand-mark--footer" aria-hidden="true">S</span>
         </aside>
       </div>
 

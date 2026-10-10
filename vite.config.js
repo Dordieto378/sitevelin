@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     cors: {
-      origin: ['http://webvora.test'],
+      origin: ['http://sitevelin.test'],
     },
   },
 })
