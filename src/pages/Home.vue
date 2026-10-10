@@ -396,7 +396,7 @@ onBeforeUnmount(() => {
 
           <article class="plan plan--primary" data-reveal="up">
             <div class="plan__top">
-              <p class="plan__price">from $300 <span>Website projects</span></p>
+              <p class="plan__price">from €300 <span>Website projects</span></p>
             </div>
             <h3>Websites</h3>
             <p class="plan__lead">
@@ -404,56 +404,53 @@ onBeforeUnmount(() => {
               clear structure and client-provided design direction.
             </p>
             <ul>
-              <li>1 to 3 pages: $300</li>
-              <li>4 to 8 pages: $650</li>
-              <li>8 to 12 pages: $1,000</li>
+              <li>1 to 3 pages: €300</li>
+              <li>4 to 8 pages: €650</li>
+              <li>9 to 12 pages: €1,000</li>
             </ul>
             <p class="plan__note">
-              Client must provide a design file or clear visual references before the project can
-              begin.
+              Clients provide their content and design references. Custom UI/UX design can be
+              quoted separately.
             </p>
           </article>
 
           <article class="plan plan--secondary" data-reveal="up" data-reveal-delay="100">
             <div class="plan__top">
-              <p class="plan__price">from $1,500 <span>Custom app projects</span></p>
+              <p class="plan__price">from €1,500 <span>Custom app projects</span></p>
             </div>
             <h3>Web Apps</h3>
             <p class="plan__lead">
-              A solid starting scope for simple internal tools, lightweight client portals, or
-              business workflows that require custom data management.
+              Custom web applications designed to simplify business operations, manage
+              information, and improve everyday workflows.
             </p>
             <ul>
-              <li>1 to 3 pages</li>
-              <li>Login / register function</li>
-              <li>Create, edit, delete, and view data</li>
-              <li>Basic database setup</li>
-              <li>Simple dashboard interface</li>
-              <li>Deployment included</li>
-              <li>Advanced features are quoted separately</li>
+              <li>Secure user login and registration</li>
+              <li>Custom dashboards to manage your business data</li>
+              <li>Add, edit, organize, and delete records</li>
+              <li>Database setup and integration</li>
+              <li>Responsive interface for desktop and mobile</li>
+              <li>Deployment and launch included</li>
+              <li>Advanced features quoted separately</li>
             </ul>
-            <p class="plan__note">
-              Client must provide a design file or clear visual references before the project can
-              begin.
-            </p>
           </article>
 
           <article class="plan plan--tertiary" data-reveal="up" data-reveal-delay="180">
             <div class="plan__top">
-              <p class="plan__price">from $50/month <span>Maintenance and hosting</span></p>
+              <p class="plan__price">from €50/month <span>Maintenance and hosting</span></p>
             </div>
             <h3>Monthly Maintenance + Hosting</h3>
             <p class="plan__lead">
-              Ongoing support for finished websites and applications. Regular portfolio websites
-              start at $50/month, while custom web apps start at $1,500/month and scale upward as
-              the app grows in users, features, traffic, storage, or operational complexity.
+              Keep your website online, secure, and running smoothly with reliable hosting and
+              ongoing technical support.
             </p>
             <ul>
-              <li>Portfolio websites from $50/month</li>
-              <li>Custom web apps from $1,500/month</li>
-              <li>Routine updates and maintenance</li>
-              <li>Basic uptime oversight</li>
-              <li>Monthly pricing scales as the platform grows</li>
+              <li>Website hosting and SSL certificate</li>
+              <li>Basic uptime monitoring</li>
+              <li>Routine maintenance and security updates</li>
+              <li>Regular website backups</li>
+              <li>Minor content updates (up to 30 minutes per month)</li>
+              <li>Technical issue investigation and fixes</li>
+              <li>Custom web application maintenance quoted separately</li>
             </ul>
           </article>
 
