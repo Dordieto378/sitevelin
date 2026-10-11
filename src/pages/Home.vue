@@ -454,7 +454,6 @@ onBeforeUnmount(() => {
               <li>Regular website backups</li>
               <li>Minor content updates (up to 30 minutes per month)</li>
               <li>Basic troubleshooting and minor technical fixes</li>
-              <li>Major repairs, complex issues, and additional development are quoted separately.</li>
             </ul>
             <p class="plan__note">
               Monthly plans are tailored to your website's requirements. Domain registration,
