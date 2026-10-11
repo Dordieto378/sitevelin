@@ -244,7 +244,7 @@ onBeforeUnmount(() => {
           <span :class="statusPillClass" data-reveal="down" data-reveal-delay="40" data-reveal-on-load="true"><i />{{ amsterdamStatus.label }}</span>
           <span class="time-chip" data-reveal="down" data-reveal-delay="65" data-reveal-on-load="true">{{ amsterdamStatus.time }}</span>
           <a href="tel:0851302368" data-reveal="down" data-reveal-delay="90" data-reveal-on-load="true">085 130 23 68</a>
-          <a href="mailto:hello@sitevelin.com" data-reveal="down" data-reveal-delay="140" data-reveal-on-load="true">hello@sitevelin.com</a>
+          <a href="mailto:contact@sitevelin.com" data-reveal="down" data-reveal-delay="140" data-reveal-on-load="true">contact@sitevelin.com</a>
         </div>
       </div>
 
@@ -323,7 +323,7 @@ onBeforeUnmount(() => {
             <div class="mini-card__contact">
               <p>Contact us directly</p>
               <a href="#contact">Schedule a call</a>
-              <a href="mailto:hello@sitevelin.com">hello@sitevelin.com</a>
+              <a href="mailto:contact@sitevelin.com">contact@sitevelin.com</a>
               <a href="tel:0851302368">085 130 23 68</a>
               <span :class="[statusPillClass, 'pill--lg']"><i />{{ amsterdamStatus.label }}</span>
             </div>
@@ -501,7 +501,7 @@ onBeforeUnmount(() => {
           <div>
             <h3>Contact Sitevelin</h3>
             <a href="#contact">Schedule a call</a>
-            <a href="mailto:hello@sitevelin.com">hello@sitevelin.com</a>
+            <a href="mailto:contact@sitevelin.com">contact@sitevelin.com</a>
             <a href="tel:0851302368">085 130 23 68</a>
             <span :class="[statusPillClass, 'pill--lg']"><i />{{ amsterdamStatus.label }}</span>
           </div>
