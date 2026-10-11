@@ -323,8 +323,8 @@ onBeforeUnmount(() => {
             <div class="mini-card__contact">
               <p>Contact us directly</p>
               <a href="#contact">Schedule a call</a>
-              <a href="mailto:contact@sitevelin.com">contact@sitevelin.com</a>
               <a href="tel:0851302368">085 130 23 68</a>
+              <a href="mailto:contact@sitevelin.com">contact@sitevelin.com</a>
               <span :class="[statusPillClass, 'pill--lg']"><i />{{ amsterdamStatus.label }}</span>
             </div>
             <div class="mini-card__message">
@@ -453,12 +453,12 @@ onBeforeUnmount(() => {
               <li>Routine maintenance and security updates</li>
               <li>Regular website backups</li>
               <li>Minor content updates (up to 30 minutes per month)</li>
-              <li>Technical issue investigation and fixes</li>
-              <li>Custom web application maintenance quoted separately</li>
+              <li>Basic troubleshooting and minor technical fixes</li>
+              <li>Major repairs, complex issues, and additional development are quoted separately.</li>
             </ul>
             <p class="plan__note">
-              Clients provide their content and design references. Custom UI/UX design can be
-              quoted separately.
+              Monthly plans are tailored to your website's requirements. Domain registration,
+              major changes, new features, and additional development are billed separately.
             </p>
           </article>
 
@@ -483,7 +483,6 @@ onBeforeUnmount(() => {
             <h3>Opening hours</h3>
             <p>Mon - Fri 09:00 to 17:00</p>
             <p>Timezone: Europe/Amsterdam (CET/CEST)</p>
-            <span :class="[statusPillClass, 'pill--lg']"><i />{{ amsterdamStatus.label }}</span>
           </div>
 
           <div class="col">
@@ -501,8 +500,8 @@ onBeforeUnmount(() => {
           <div>
             <h3>Contact Sitevelin</h3>
             <a href="#contact">Schedule a call</a>
-            <a href="mailto:contact@sitevelin.com">contact@sitevelin.com</a>
             <a href="tel:0851302368">085 130 23 68</a>
+            <a href="mailto:contact@sitevelin.com">contact@sitevelin.com</a>
             <span :class="[statusPillClass, 'pill--lg']"><i />{{ amsterdamStatus.label }}</span>
           </div>
           <span class="brand-mark brand-mark--footer" aria-hidden="true">S</span>
