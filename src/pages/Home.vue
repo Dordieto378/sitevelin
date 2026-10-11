@@ -448,7 +448,7 @@ onBeforeUnmount(() => {
               technical support.
             </p>
             <ul class="plan__services">
-              <li class="plan__list-heading">Websites &mdash; &euro;50/month</li>
+              <li class="plan__list-heading">Website &mdash; &euro;50/month</li>
               <li>Website hosting and SSL certificate</li>
               <li>Basic uptime monitoring</li>
               <li>Routine security and software updates</li>
