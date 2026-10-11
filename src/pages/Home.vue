@@ -243,7 +243,7 @@ onBeforeUnmount(() => {
         <div class="topbar__right" data-reveal="down" data-reveal-on-load="true">
           <span :class="statusPillClass" data-reveal="down" data-reveal-delay="40" data-reveal-on-load="true"><i />{{ amsterdamStatus.label }}</span>
           <span class="time-chip" data-reveal="down" data-reveal-delay="65" data-reveal-on-load="true">{{ amsterdamStatus.time }}</span>
-          <a href="tel:0851302368" data-reveal="down" data-reveal-delay="90" data-reveal-on-load="true">085 130 23 68</a>
+          <a href="tel:0630287323" data-reveal="down" data-reveal-delay="90" data-reveal-on-load="true">0630287323</a>
           <a href="mailto:contact@sitevelin.com" data-reveal="down" data-reveal-delay="140" data-reveal-on-load="true">contact@sitevelin.com</a>
         </div>
       </div>
@@ -323,7 +323,7 @@ onBeforeUnmount(() => {
             <div class="mini-card__contact">
               <p>Contact us directly</p>
               <a href="#contact">Schedule a call</a>
-              <a href="tel:0851302368">085 130 23 68</a>
+              <a href="tel:0630287323">0630287323</a>
               <a href="mailto:contact@sitevelin.com">contact@sitevelin.com</a>
               <span :class="[statusPillClass, 'pill--lg']"><i />{{ amsterdamStatus.label }}</span>
             </div>
@@ -484,22 +484,13 @@ onBeforeUnmount(() => {
             <p>Timezone: Europe/Amsterdam (CET/CEST)</p>
           </div>
 
-          <div class="col">
-            <h3>Expertise</h3>
-            <a href="#services">Websites</a>
-            <a href="#services">Online stores</a>
-            <a href="#services">Web apps</a>
-            <a href="#services">Consulting</a>
-            <a href="#services">Maintenance</a>
-            <a href="#services">Hosting</a>
-          </div>
         </div>
 
         <aside class="footer__card" data-reveal="right" data-reveal-delay="100">
           <div>
             <h3>Contact Sitevelin</h3>
             <a href="#contact">Schedule a call</a>
-            <a href="tel:0851302368">085 130 23 68</a>
+            <a href="tel:0630287323">0630287323</a>
             <a href="mailto:contact@sitevelin.com">contact@sitevelin.com</a>
             <span :class="[statusPillClass, 'pill--lg']"><i />{{ amsterdamStatus.label }}</span>
           </div>
