@@ -725,6 +725,22 @@
   box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.35);
 }
 
+.plan li.plan__list-heading {
+  min-height: 0;
+  margin-top: 12px;
+  padding-left: 0;
+  font-size: 1.08rem;
+  font-weight: 800;
+}
+
+.plan li.plan__list-heading:first-child {
+  margin-top: 0;
+}
+
+.plan li.plan__list-heading::before {
+  content: none;
+}
+
 .plan__note {
   margin: 0;
   min-height: 120px;

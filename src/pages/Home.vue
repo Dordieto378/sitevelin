@@ -444,16 +444,24 @@ onBeforeUnmount(() => {
             </div>
             <h3>Monthly Maintenance + Hosting</h3>
             <p class="plan__lead">
-              Keep your website online, secure, and running smoothly with reliable hosting and
-              ongoing technical support.
+              Keep your website or web app secure, maintained, and running smoothly with ongoing
+              technical support.
             </p>
-            <ul>
+            <ul class="plan__services">
+              <li class="plan__list-heading">Websites &mdash; &euro;50/month</li>
               <li>Website hosting and SSL certificate</li>
               <li>Basic uptime monitoring</li>
-              <li>Routine maintenance and security updates</li>
+              <li>Routine security and software updates</li>
               <li>Regular website backups</li>
-              <li>Minor content updates (up to 30 minutes per month)</li>
+              <li>Minor content updates (up to 30 minutes monthly)</li>
               <li>Basic troubleshooting and minor technical fixes</li>
+              <li class="plan__list-heading">Web App &mdash; &euro;200/month</li>
+              <li>Application maintenance and security updates</li>
+              <li>Database and application monitoring</li>
+              <li>Regular database backups</li>
+              <li>Bug fixes and technical troubleshooting</li>
+              <li>Dependency and framework updates</li>
+              <li>Basic performance monitoring</li>
             </ul>
             <p class="plan__note">
               Monthly plans are tailored to your website's requirements. Domain registration,
